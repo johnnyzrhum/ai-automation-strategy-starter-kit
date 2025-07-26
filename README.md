@@ -1,40 +1,76 @@
 # AI & Automation Strategy Starter Kit
 
-This starter kit provides a practical, high-level framework for identifying, testing, and implementing AI-powered automation solutions—without diving straight into code.
+This starter kit provides a practical, tactical framework for identifying, designing, and testing AI-powered automation solutions—without jumping straight into code.
 
-It’s designed for tech leaders, product managers, and innovators looking to simplify workflows, optimize processes, and accelerate digital transformation.
-
----
-
-## 🚀 Key Principles:
-- **Start Small, Scale Fast:** Test ideas quickly using low-code tools or AI assistants before committing to full implementation.
-- **Keep People at the Center:** Prioritize user experience and operational impact over technical complexity.
-- **Simplicity Over Complexity:** Focus on removing steps, not just automating them.
+It’s built for tech leaders, product managers, and innovation teams who want to simplify workflows, reduce manual effort, and drive digital transformation using real-world examples and proven tools.
 
 ---
 
-## 🔧 Toolkit Components:
-1. **Opportunity Identification Worksheet**
-   - Simple template to map automation opportunities.
-2. **Sample AI-Driven Automation Flows**
-   - Example workflows using AI tools (e.g., document classification, content generation, decision routing).
-3. **Decision Framework**
-   - Lightweight decision tree to prioritize automation efforts by impact and ease of implementation.
-4. **Best Practices for Piloting Automations**
-   - Tips for running small tests with minimal risk before scaling.
+## 🚀 Key Principles
+
+- **Start Small, Scale Fast**  
+  Prototype ideas quickly using AI assistants or low-code tools before full implementation.
+
+- **Keep People at the Center**  
+  Focus on improving the user experience, not just replacing it with automation.
+
+- **Simplicity Over Complexity**  
+  Prioritize eliminating steps over layering on tech.
 
 ---
 
-## 🧰 Tools Highlighted:
-- AI-powered platforms (like ChatGPT, Claude, or others)
-- Low-code/no-code automation platforms (optional)
-- Diagramming tools for flow design
+## 🔧 What's Inside
+
+| Component                              | Purpose                                                    |
+|----------------------------------------|------------------------------------------------------------|
+| `prompts/`                             | Pre-written ChatGPT prompts to help design or analyze workflows |
+| `sample-workflows/`                    | Real-world workflow examples, with Mermaid diagrams & results |
+| `opportunity-worksheet.md`             | Simple worksheet to map where automation could help        |
+| `decision-framework.md`                | Lightweight decision tree to prioritize what to automate   |
+| *(coming soon)* `assets/diagrams/`     | Visual PNGs of workflow diagrams for slides and reports    |
 
 ---
 
-## 💡 Inspiration:
-This framework was inspired by my years leading automation initiatives—blending design thinking, AI tools, and operations strategy to simplify processes and unlock scalable results.
+## 🧠 How to Use This Kit
+
+1. **Explore the examples in `sample-workflows/`**  
+   Each file shows a real automation scenario: what changed, how AI fits in, and expected outcomes.
+
+2. **Use the matching prompt in `prompts/`**  
+   Drop your own process into the prompt (e.g. current workflow steps) to generate AI-augmented flows or ROI analyses.
+
+3. **Test your idea in a low-code tool**  
+   Try Make, Zapier, Airtable, or a simple Google Workspace script to prototype your workflow.
+
+4. **Evaluate with the decision framework**  
+   Is it worth building out further? Use the decision matrix to score for effort and impact.
 
 ---
 
-*Note: This toolkit is for educational and demonstration purposes, based on industry best practices and personal methodologies.*
+## 🧰 Tools Highlighted
+
+- **AI assistants:** ChatGPT, Claude, Gemini
+- **Low-code platforms:** Zapier, Make, Airtable, Notion
+- **Visualization:** Mermaid.js, Whimsical, Excalidraw
+
+---
+
+## 🔗 Workflow & Prompt Pairings
+
+| Use Case                   | Workflow File                      | Matching Prompt                      |
+|----------------------------|------------------------------------|--------------------------------------|
+| Simplifying a process      | `sample-workflows/workflow-simplifier.md` | `prompts/workflow-simplifier.txt`     |
+| Designing an AI workflow   | `sample-workflows/ai-flow-architect.md`  | `prompts/ai-flow-architect.txt`      |
+| Evaluating ROI of automation | `sample-workflows/roi-analyzer.md`      | `prompts/roi-analyzer.txt`           |
+
+---
+
+## 💡 Inspiration
+
+This kit is rooted in practical automation experience—from marketing ops to creative workflows to enterprise AI integrations. It combines design thinking, systems thinking, and real automation tooling.
+
+Use it as a sandbox. Share it. Remix it.
+
+---
+
+*Note: This project is for learning and inspiration only—based on real techniques I've used to lead automation and transformation in both enterprise and startup settings.*
