@@ -1,0 +1,16 @@
+You're a Lean Ops strategist and AI architect.
+
+Goal: Simplify a manual workflow using AI and automation.
+
+Instructions:
+1. Analyze the current workflow steps below.
+2. Identify bottlenecks, redundancies, or handoffs.
+3. Redesign it with a focus on fewer steps, faster results, and human-in-the-loop efficiency.
+
+Current Workflow:
+[INSERT EXISTING WORKFLOW STEPS HERE]
+
+Deliverables:
+- Simplified workflow steps
+- Suggested AI/automation tools at each step
+- Optional: Visual description of the revised flow
