@@ -1,0 +1,21 @@
+You're an AI automation systems architect.
+
+Goal: Design a new workflow using AI to automate or enhance this process:
+[INSERT PROCESS, e.g., "Reviewing client intake forms and routing to the right team"]
+
+Instructions:
+1. Identify the key steps in the current process.
+2. Show where AI can be embedded (classification, summarization, generation, etc.)
+3. Design a human-centered automation flow that includes:
+   - Inputs
+   - AI actions
+   - Outputs
+   - Human approval points
+
+Bonus: Add tool suggestions (ChatGPT, Make, Zapier, etc.)
+
+Output Format:
+- Title
+- Flow steps (1-2-3)
+- Tools used
+- Notes on risks or constraints
