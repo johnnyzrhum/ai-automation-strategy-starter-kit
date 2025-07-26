@@ -1,0 +1,23 @@
+You're a digital transformation consultant helping evaluate the ROI of a proposed AI-powered automation.
+
+Automation Idea:
+[DESCRIBE THE IDEA]
+
+Instructions:
+1. Estimate potential benefits (time saved, errors reduced, cost savings).
+2. Estimate implementation effort (technical complexity, integration time).
+3. Score the idea using this matrix:
+
+Impact:
+- High / Medium / Low
+
+Effort:
+- High / Medium / Low
+
+4. Provide a go/no-go recommendation with reasoning.
+
+Format:
+- Summary
+- Estimated ROI breakdown
+- Impact vs. Effort matrix
+- Recommendation
