@@ -1,62 +1,64 @@
-# Workflow Simplifier: AI-Generated SEO Content for Advertiser Web Pages
+# Workflow Simplifier (AI-Assisted): SEO Content Generation for Advertiser Pages
 
-This sample shows how a Lean Ops strategist and AI architect could transform the manual SEO copywriting process into an AI-augmented workflow using the [`workflow-simplifier.txt`](../prompts/workflow-simplifier.txt) prompt.
+This use case demonstrates how to simplify the manual process of building SEO-ready advertiser web pages using AI and automation—reducing content production time while increasing consistency and discoverability.
 
 ---
 
 ## 🎯 Goal
 
-Speed up the production of SEO-ready advertiser web pages by using AI to generate core content, metadata, and visual assets—while allowing human review before publishing.
+Redesign a slow, multi-step content workflow using AI tools like ChatGPT or Claude alongside low-code automation platforms.
 
 ---
 
-## 🧩 Current Manual Workflow (Before AI)
+## 🧩 Use Case: Advertiser Web Page Creation
 
-1. Copywriter researches the advertiser’s business from intake forms or online  
-2. Writes a unique business description for SEO  
-3. Creates or requests a properly named hero image and uploads to CMS  
-4. Writes metadata (alt tags, file names, etc.) for images and logos  
-5. Crafts a marketing message with embedded keywords  
-6. Writes bulleted lists of menu items or services  
-7. Gathers location info, contact info, and social media links  
-8. Formats and publishes in CMS manually
+**Manual Workflow**
+1. Copywriter reviews advertiser intake form or does online research  
+2. Writes business description for SEO  
+3. Crafts a keyword-rich marketing headline  
+4. Uploads and renames logo and hero image, writes alt tags  
+5. Creates bulleted service or menu list  
+6. Gathers and formats contact info, location, and social links  
+7. Manually enters everything into CMS for publishing  
+
+This workflow is time-consuming and inconsistent across advertisers.
 
 ---
 
-## ⚡ AI-Augmented Workflow (After Simplification)
+## ⚡ AI-Augmented Workflow
 
-1. Advertiser completes structured intake form (industry, services, contact, brand tone, keywords, etc.)  
-2. AI model parses intake → generates:  
+1. Advertiser completes a structured intake form (services, tone, logo, etc.)  
+2. AI generates:
    - SEO business description  
-   - Keyword-rich marketing message  
-   - Bulleted service/menu list  
-   - Location + general info section  
-   - Suggested social copy / snippets  
-3. AI renames and tags uploaded assets (logo, hero image) for SEO  
-4. AI suggests hero image (or generates via DALL·E) and auto-inserts alt tags and filenames  
-5. Human editor reviews and approves in CMS before publish
+   - Keyword-optimized marketing message  
+   - Bulleted list of services or menu items  
+   - Location, contact, and social sections  
+3. AI renames and tags uploaded assets  
+4. AI suggests or generates hero image (optional)  
+5. Automation tool inserts content into CMS draft for review  
+6. Human editor finalizes and publishes  
 
 ---
 
-## 🧠 Suggested Tools
+## 🧠 Tools Used
 
-- **ChatGPT**: content generation, tone control, keyword integration  
-- **Zapier / Make**: automate from form submission → content → CMS draft  
-- **DALL·E or Midjourney**: generate hero images if none provided  
-- **ImageMagick / Squoosh**: optimize and rename assets  
-- **Airtable / Notion**: review layer before publish  
-- **Headless CMS or WordPress**: content storage and publishing
+- **ChatGPT / Claude**: generate content and metadata  
+- **Zapier / Make**: move data from form to CMS  
+- **DALL·E**: generate hero image (optional)  
+- **ImageMagick / Squoosh**: rename, compress, tag images  
+- **Airtable / Notion**: internal QA  
+- **CMS**: WordPress, headless CMS, or internal platform  
 
 ---
 
-## 📉 Before vs After Comparison
+## 📉 Impact Summary
 
-| Metric                     | Manual Workflow | AI-Aided Workflow |
-|----------------------------|------------------|-------------------|
-| Time to publish 1 page     | ~1–2 hours       | ~15–20 minutes    |
-| Copy consistency           | Variable         | Standardized      |
-| SEO metadata completeness  | Often missed     | Auto-filled       |
-| Human review requirement   | 100% hands-on    | Light-touch QA    |
+| Metric                      | Manual         | AI-Aided        |
+|-----------------------------|----------------|-----------------|
+| Time per page               | 1–2 hours      | ~15–20 minutes  |
+| Human touchpoints           | 4–5            | 1–2             |
+| SEO structure consistency   | Varies         | High            |
+| Metadata completion         | Often missed   | Auto-generated  |
 
 ---
 
@@ -64,10 +66,8 @@ Speed up the production of SEO-ready advertiser web pages by using AI to generat
 
 ```mermaid
 flowchart TD
-    A[Advertiser Intake Form Submitted] --> B[AI Parses Inputs]
-    B --> C[Generate SEO Content & Metadata]
-    B --> D[Rename + Tag Uploaded Assets]
-    C --> E[Insert into CMS Draft]
-    D --> E
-    E --> F[Human Editor Review]
-    F --> G[Publish Web Page]
+    A[Intake Form Submitted] --> B[AI Generates Page Content]
+    B --> C[Rename + Tag Uploaded Assets]
+    C --> D[Insert Draft into CMS]
+    D --> E[Human Editor Review]
+    E --> F[Publish Web Page]
