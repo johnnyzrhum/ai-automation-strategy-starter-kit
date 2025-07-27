@@ -1,0 +1,73 @@
+# Workflow Simplifier: AI-Generated SEO Content for Advertiser Web Pages
+
+This sample shows how a Lean Ops strategist and AI architect could transform the manual SEO copywriting process into an AI-augmented workflow using the [`workflow-simplifier.txt`](../prompts/workflow-simplifier.txt) prompt.
+
+---
+
+## 🎯 Goal
+
+Speed up the production of SEO-ready advertiser web pages by using AI to generate core content, metadata, and visual assets—while allowing human review before publishing.
+
+---
+
+## 🧩 Current Manual Workflow (Before AI)
+
+1. Copywriter researches the advertiser’s business from intake forms or online  
+2. Writes a unique business description for SEO  
+3. Creates or requests a properly named hero image and uploads to CMS  
+4. Writes metadata (alt tags, file names, etc.) for images and logos  
+5. Crafts a marketing message with embedded keywords  
+6. Writes bulleted lists of menu items or services  
+7. Gathers location info, contact info, and social media links  
+8. Formats and publishes in CMS manually
+
+---
+
+## ⚡ AI-Augmented Workflow (After Simplification)
+
+1. Advertiser completes structured intake form (industry, services, contact, brand tone, keywords, etc.)  
+2. AI model parses intake → generates:  
+   - SEO business description  
+   - Keyword-rich marketing message  
+   - Bulleted service/menu list  
+   - Location + general info section  
+   - Suggested social copy / snippets  
+3. AI renames and tags uploaded assets (logo, hero image) for SEO  
+4. AI suggests hero image (or generates via DALL·E) and auto-inserts alt tags and filenames  
+5. Human editor reviews and approves in CMS before publish
+
+---
+
+## 🧠 Suggested Tools
+
+- **ChatGPT**: content generation, tone control, keyword integration  
+- **Zapier / Make**: automate from form submission → content → CMS draft  
+- **DALL·E or Midjourney**: generate hero images if none provided  
+- **ImageMagick / Squoosh**: optimize and rename assets  
+- **Airtable / Notion**: review layer before publish  
+- **Headless CMS or WordPress**: content storage and publishing
+
+---
+
+## 📉 Before vs After Comparison
+
+| Metric                     | Manual Workflow | AI-Aided Workflow |
+|----------------------------|------------------|-------------------|
+| Time to publish 1 page     | ~1–2 hours       | ~15–20 minutes    |
+| Copy consistency           | Variable         | Standardized      |
+| SEO metadata completeness  | Often missed     | Auto-filled       |
+| Human review requirement   | 100% hands-on    | Light-touch QA    |
+
+---
+
+## 🖼️ Workflow Diagram
+
+```mermaid
+flowchart TD
+    A[Advertiser Intake Form Submitted] --> B[AI Parses Inputs]
+    B --> C[Generate SEO Content & Metadata]
+    B --> D[Rename + Tag Uploaded Assets]
+    C --> E[Insert into CMS Draft]
+    D --> E
+    E --> F[Human Editor Review]
+    F --> G[Publish Web Page]
